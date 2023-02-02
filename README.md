@@ -51,7 +51,7 @@ Restart the server and allow ports
 ```
 systemctl restart vsftpd
 ufw enable -y
-ufw allow 20:22/tcp && ufw allow 1194/udp && ufw allow 10000:10100/tcp && ufw allow 51820/udp
+ufw allow 20:22/tcp && ufw allow 10000:10100/tcp && ufw allow 1194/udp && ufw allow 51820/udp
 ```
 
 ## Install Pihole
@@ -68,6 +68,8 @@ bash basic-install.sh
 ```
 curl -L https://install.pivpn.io | bash
 ```
+> Run the command again and reconfigure it to install openvpn+wireguard server, also open the neccesary ports in your server.
+
 To generate a new conf:
 * `pivpn ovpn -a nopass` for generate a openvpn conf without password
 * `pivpn wg -a` for generate a wireguard conf
