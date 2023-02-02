@@ -23,8 +23,8 @@ nano /etc/vsftpd.conf
 ```
 
 Copy the configurations, set local user directory or choose a custom:
-> chroot_local_user=YES
-> local_root=/media/jetson
+* chroot_local_user=YES
+* local_root=/media/jetson
 ```
 listen=NO
 listen_ipv6=YES
@@ -68,7 +68,7 @@ bash basic-install.sh
 ```
 curl -L https://install.pivpn.io | bash
 ```
-> To generate a new conf:
->> pivpn ovpn -a nopass for generate a openvpn conf without password
->> pivpn wg -a for generate a wireguard conf
->> pivpn wg -qr to show a qr code for scan
+To generate a new conf:
+* pivpn ovpn -a nopass for generate a openvpn conf without password
+* pivpn wg -a for generate a wireguard conf
+* pivpn wg -qr to show a qr code for scan
