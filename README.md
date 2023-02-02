@@ -69,6 +69,6 @@ bash basic-install.sh
 curl -L https://install.pivpn.io | bash
 ```
 To generate a new conf:
-* pivpn ovpn -a nopass for generate a openvpn conf without password
-* pivpn wg -a for generate a wireguard conf
-* pivpn wg -qr to show a qr code for scan
+* `pivpn ovpn -a nopass` for generate a openvpn conf without password
+* `pivpn wg -a` for generate a wireguard conf
+* `pivpn wg -qr` to show a qr code for scan
