@@ -62,8 +62,8 @@ cd "Pi-hole/automated install/"
 bash basic-install.sh
 ```
 
-* If there is any error, edit `/etc/resolv.conf` and ser the dns: 8.8.8.8
-* Change the password `pihole -a -p`
+> If there is any error, edit `/etc/resolv.conf` and ser the dns: 8.8.8.8
+> Change the password `pihole -a -p`
 
 ## Install pivpn
 ```
