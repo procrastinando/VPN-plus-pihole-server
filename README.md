@@ -1,6 +1,6 @@
 # VPN + pihole server
 
-## Add user and increase swap if neccesary
+## Add user and increase swap to 1G if neccesary
 
 ```
 adduser docker
